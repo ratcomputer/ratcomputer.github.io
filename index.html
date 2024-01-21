@@ -18,7 +18,7 @@
         <video preload loop id="unique-id" src="https://cdn.discordapp.com/attachments/1188192132054405301/1198078783899582494/d1ad0c85220598cb7d9ddeb4f67714e3.mp4?ex=65bd98d1&is=65ab23d1&hm=4f27b39627e2b54dd2a03d401b09fae8d7faf635f48b3b2cdb0da79675b8e18b&"></video>
         <script>
             const video=document.getElementById("unique-id");
-            const clicked_once = false
+            let clicked_once = false;
             document.body.parentElement.addEventListener("click", () => {
                 if (clicked_once) {return}
                 clicked_once=true
